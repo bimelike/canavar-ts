@@ -1,9 +1,6 @@
 import { ChangeEventHandler } from "react";
 import "./search-box.styles.css";
-
-const func: (a: string, b: number, c: boolean) => boolean = (a, b, c) => {
-  return true
-}
+ 
 
 type SearchBoxProps = {
   className: string
